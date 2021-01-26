@@ -2,14 +2,14 @@
 #include <stdlib.h>
 int main()
 {
-    int n;  // 使用者輸入的整數
-    int i;  // 迴圈標誌
+    int n;  
+    int i;
 
     printf("Please input number:");
     scanf("%d",&n);
     printf("%d=",n);
 
-     // n>=2才執行下面的迴圈
+
     for(i=2; i<=n; i++){
         while(n!=i){
             if(n%i==0){
